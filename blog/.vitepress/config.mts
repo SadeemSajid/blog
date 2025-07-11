@@ -7,7 +7,13 @@ export default defineConfig({
   lang: "en-US",
 
   // SEO
-  head: [["meta", { name: "author", content: "Sadeem Sajid" }]],
+  head: [
+    ["meta", { name: "author", content: "Sadeem Sajid" }],
+    [
+      "script",
+      { defer: "true", src: "https://vercel.com/speed-insights/script.js" },
+    ],
+  ],
 
   // THEME
 
