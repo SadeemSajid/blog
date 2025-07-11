@@ -8,6 +8,5 @@
     "blog:preview": "vitepress preview blog"
   },
   "dependencies": {
-    "@vercel/speed-insights": "^1.2.0"
   }
 }
