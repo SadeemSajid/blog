@@ -27,7 +27,10 @@ export default defineConfig({
       { text: "Islam", link: "/islam" },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/SadeemSajid" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/SadeemSajid" },
+      { icon: "linkedin", link: "https://www.linkedin.com/in/sadeem-sajid/" },
+    ],
     search: {
       provider: "local",
     },
