@@ -7,13 +7,18 @@ export default defineConfig({
   lang: "en-US",
 
   // SEO
-  head: [["meta", { name: "author", content: "Sadeem Sajid" }]],
+  head: [
+    ["meta", { name: "author", content: "Sadeem Sajid" }],
+    ["link", { rel: "icon", href: "/favicon.png" }],
+  ],
 
   // THEME
 
   appearance: false,
 
   themeConfig: {
+    // logo: "/favicon.png", // Enable if you want a logo
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
