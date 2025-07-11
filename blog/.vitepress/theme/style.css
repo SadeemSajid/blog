@@ -1,0 +1,49 @@
+/* General Configurations */
+
+:root {
+  --vp-font-family-base: "Libre Baskerville", serif;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  /* background-color: #fdfdfd; */
+}
+
+p,
+ul,
+ol {
+  font-size: large;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* .VPNavBar {
+  background-color: #f8f6f4 !important;
+} */
+
+/* Home Page */
+
+.VPHome .VPHomeHero .container {
+  align-items: center;
+  justify-items: center;
+}
+
+.VPHomeHero .heading .text {
+  font-size: x-large;
+  line-height: normal;
+}
+
+/* Article Listings Pages */
+
+.article-listing-heading {
+  color: var(--vp-c-text-1) !important;
+  text-decoration: none !important;
+  font-size: x-large;
+}
+
+.article-listing-heading:hover {
+  background-color: color-mix(in srgb, #00adb5 10%, transparent);
+}
