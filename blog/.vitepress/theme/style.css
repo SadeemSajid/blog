@@ -38,12 +38,34 @@ p {
 
 /* Article Listings Pages */
 
+.article-listing {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--vp-c-text-1);
+}
+
+.article-listing-heading-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .article-listing-heading {
   color: var(--vp-c-text-1) !important;
   text-decoration: none !important;
   font-size: x-large;
 }
 
+.article-listing-date {
+  font-size: medium;
+  color: gray;
+  margin: 0px !important;
+}
+
 .article-listing-heading:hover {
   background-color: color-mix(in srgb, #00adb5 10%, transparent);
+}
+
+.article-listing-overview {
+  margin-top: 24px !important;
 }
