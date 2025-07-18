@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import footnote from 'markdown-it-footnote';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -33,7 +34,14 @@ export default defineConfig({
     ],
     search: {
       provider: "local",
-    },
+    },  
+  },
+
+  // Markdown properties
+  markdown: {
+    config(md) {
+      md.use(footnote);
+    }
   },
 
   // Custom Config

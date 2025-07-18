@@ -1,3 +1,7 @@
+---
+description: Exploring the concept behind low-latency, high-throughput networking in modern data centers, and how it compares against the traditional networking stack.
+---
+
 # An Introduction to Remote Direct Memory Access.
 18th July, 2025
 
@@ -48,4 +52,4 @@ One of the most important resources here is the Queue Pair (QP). The QP is an im
 
 RDMA provides a low-latency, high-throughput networking capability for high-speed environments. In the real world, RDMA has several different implementations. Two of the most common ones are *Infiniband* and *RDMA over Converged Ethernet version 2* (RoCE v2). Infiniband has its own network architecture, while RoCE v2 utilises the traditional UDP/IP stack. Moreover, the verbs that govern these operations are now built into the linux kernel, in a library called libibverbs. The rdma-core project on Github hosts most of the code related to RDMA in the linux kernel. I’ll hopefully be writing more about RoCE v2 and writing applications using that implementation some time in the future.
 
-[^1] https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/
+[^1]: https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/

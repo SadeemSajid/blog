@@ -8,5 +8,6 @@
     "blog:preview": "vitepress preview blog"
   },
   "dependencies": {
+    "markdown-it-footnote": "^4.0.0"
   }
 }
